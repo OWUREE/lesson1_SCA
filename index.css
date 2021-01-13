@@ -35,9 +35,12 @@ p{
 #images{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
 }
 .image-items{
-  width:400px;
+  width:100%;
+  height:auto;
+  max-width:400px;
   height:250px;
 }
 #name{
@@ -93,7 +96,6 @@ a:active{
   body{
     width:100%;
     font-size:0.8rem;
-    background-color:gray;
   }
   h1{
     font-size:50px;
